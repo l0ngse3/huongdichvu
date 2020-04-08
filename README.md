@@ -10,11 +10,11 @@ Sau đó sửa port của Apache thành 8888 nhằm tránh trùng port với Sky
 
 Vào tệp bằng cách.
 
-<img src="Images/changePort.PNG?raw=true" />
+<img src="Image/changePort.PNG?raw=true" />
 
 Sau đó đổi dòng `Listen 80` thành `Listen 8888` như hình sau.
 
-<img src="Images/changePort1.PNG?raw=true" />
+<img src="Image/changePort1.PNG?raw=true" />
 
 ### Dowload Project
 
@@ -34,7 +34,7 @@ Thông tin về tên database, tên miền được cấu hình trong thư mục
 \xampp\htdocs\huongdichvu\config.php
 ```
 
-<img src="Images/config.PNG?raw=true" />
+<img src="Image/config.PNG?raw=true" />
 
 ### Cấu hình máy chủ ảo
 
@@ -61,11 +61,11 @@ Truy cập đến trang quản lý [PhpAdmin ](http://localhost:8888/phpmyadmin)
 
 Tạo lại database trong đó với tên giống trong thư mục `\xampp\htdocs\huongdichvu\config.php` như hình dưới đây
 
-<img src="Images/config.PNG?raw=true" />
+<img src="Image/config.PNG?raw=true" />
 
 Đặt tên giống với giá trị biến `$database` trong hình
 
-<img src="Images/createDB.PNG?raw=true" />
+<img src="Image/createDB.PNG?raw=true" />
 
 Tiếp đó vào phần chọn database có tên vừa tạo và Import file `huongdichvu.sql` trong thư mục của project.
 
